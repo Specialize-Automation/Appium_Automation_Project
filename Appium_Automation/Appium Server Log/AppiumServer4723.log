@@ -1,0 +1,366 @@
+2017-07-05 00:07:38:647 - info: [Appium] Welcome to Appium v1.6.5
+2017-07-05 00:07:38:649 - info: [Appium] Non-default server args:
+2017-07-05 00:07:38:650 - info: [Appium]   address: 127.0.0.1
+2017-07-05 00:07:38:650 - info: [Appium]   bootstrapPort: 200
+2017-07-05 00:07:38:651 - info: [Appium]   sessionOverride: true
+2017-07-05 00:07:38:651 - info: [Appium]   log: E:\Eclipse_selenium\Appium_Automation\Appium Server Log\AppiumServer4723.log
+2017-07-05 00:07:38:651 - info: [Appium]   logTimestamp: true
+2017-07-05 00:07:38:651 - info: [Appium]   localTimezone: true
+2017-07-05 00:07:38:652 - info: [Appium]   enforceStrictCaps: true
+2017-07-05 00:07:38:775 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2017-07-05 00:08:53:842 - info: [HTTP] --> POST /wd/hub/session {"capabilities":[{"desiredCapabilities":{"appPackage":"com.curvefish.widgets.brightnesslevel","appActivity":"com.curvefish.widgets.brightnesslevel.BrightnessSelect","newCommandTimeout":120,"browserName":"android","udid":"539e3ee5","platformName":"Android","version":"6.0.1MMB29M","deviceName":"539e3ee5","platform":"ANDROID"}},{"requiredCapabilities":{}}],"desiredCapabilities":{"appPackage":"com.curvefish.widgets.brightnesslevel","appActivity":"com.curvefish.widgets.brightnesslevel.BrightnessSelect","newCommandTimeout":120,"browserName":"android","udid":"539e3ee5","platformName":"Android","version":"6.0.1MMB29M","deviceName":"539e3ee5","platform":"ANDROID"},"requiredCapabilities":{}}
+2017-07-05 00:08:53:849 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.curvefish.widgets.brightnesslevel","appActivity":"com.curvefish.widgets.brightnesslevel.BrightnessSelect","newCommandTimeout":120,"browserName":"android","udid":"539e3ee5","platformName":"Android","version":"6.0.1MMB29M","deviceName":"539e3ee5","platform":"ANDROID"},{},[{"desiredCapabilities":{"appPackage":"com.curvefish.widgets.brightnesslevel","appActivity":"com.curvefish.widgets.brightnesslevel.BrightnessSelect","newCommandTimeout":120,"browserName":"android","udid":"539e3ee5","platformName":"Android","version":"6.0.1MMB29M","deviceName":"539e3ee5","platform":"ANDROID"}},{"requiredCapabilities":{}}]]
+2017-07-05 00:08:53:851 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1499193533851 (00:08:53 GMT+0530 (India Standard Time))
+2017-07-05 00:08:53:859 - info: [Appium] Creating new AndroidDriver (v1.20.0) session
+2017-07-05 00:08:53:859 - info: [Appium] Capabilities:
+2017-07-05 00:08:53:863 - info: [Appium]   appPackage: 'com.curvefish.widgets.brightnesslevel'
+2017-07-05 00:08:53:863 - info: [Appium]   appActivity: 'com.curvefish.widgets.brightnesslevel.BrightnessSelect'
+2017-07-05 00:08:53:863 - info: [Appium]   newCommandTimeout: 120
+2017-07-05 00:08:53:864 - info: [Appium]   browserName: 'android'
+2017-07-05 00:08:53:864 - info: [Appium]   udid: '539e3ee5'
+2017-07-05 00:08:53:864 - info: [Appium]   platformName: 'Android'
+2017-07-05 00:08:53:864 - info: [Appium]   version: '6.0.1MMB29M'
+2017-07-05 00:08:53:865 - info: [Appium]   deviceName: '539e3ee5'
+2017-07-05 00:08:53:865 - info: [Appium]   platform: 'ANDROID'
+2017-07-05 00:08:53:868 - info: [debug] [AndroidDriver] AndroidDriver version: 1.20.0
+2017-07-05 00:08:53:882 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: version, platform.
+2017-07-05 00:08:53:884 - info: [BaseDriver] Session created with session id: e28786e3-001c-4f14-b55a-858cb5a443a6
+2017-07-05 00:08:53:886 - info: [debug] [AndroidDriver] Getting Java version
+2017-07-05 00:08:59:322 - info: [AndroidDriver] Java version is: 1.8.0_91
+2017-07-05 00:08:59:330 - info: [ADB] Checking whether adb is present
+2017-07-05 00:08:59:398 - info: [ADB] Using adb.exe from C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe
+2017-07-05 00:08:59:399 - info: [AndroidDriver] Retrieving device list
+2017-07-05 00:08:59:400 - info: [debug] [ADB] Trying to find a connected android device
+2017-07-05 00:08:59:402 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:08:59:476 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:08:59:479 - info: [AndroidDriver] Using device: 539e3ee5
+2017-07-05 00:08:59:480 - info: [ADB] Checking whether adb is present
+2017-07-05 00:08:59:485 - info: [ADB] Using adb.exe from C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe
+2017-07-05 00:08:59:486 - info: [debug] [ADB] Setting device id to 539e3ee5
+2017-07-05 00:08:59:487 - info: [AndroidDriver] App file was not listed, instead we're going to run com.curvefish.widgets.brightnesslevel directly on the device
+2017-07-05 00:08:59:488 - info: [debug] [AndroidDriver] Checking whether package is present on the device
+2017-07-05 00:08:59:490 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:08:59:549 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:08:59:555 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","pm","list","packages","com.curvefish.widgets.brightnesslevel"]
+2017-07-05 00:09:00:232 - info: [AndroidDriver] Starting Android session
+2017-07-05 00:09:00:235 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","wait-for-device"]
+2017-07-05 00:09:00:285 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:00:328 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:00:328 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","echo","ping"]
+2017-07-05 00:09:00:414 - info: [debug] [Logcat] Starting logcat capture
+2017-07-05 00:09:00:513 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2017-07-05 00:09:00:515 - info: [debug] [ADB] Getting install status for io.appium.settings
+2017-07-05 00:09:00:516 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:00:582 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:00:583 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","pm","list","packages","io.appium.settings"]
+2017-07-05 00:09:01:285 - info: [debug] [ADB] App is not installed
+2017-07-05 00:09:01:286 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","install","C:\\Users\\Laptop\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk"]
+2017-07-05 00:09:02:939 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:02:992 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:02:992 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","getprop","ro.build.version.sdk"]
+2017-07-05 00:09:03:058 - info: [debug] [ADB] Device API level: 23
+2017-07-05 00:09:03:059 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:03:113 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:03:114 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","dumpsys","package","io.appium.settings"]
+2017-07-05 00:09:03:224 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2017-07-05 00:09:03:225 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","install","C:\\Users\\Laptop\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2017-07-05 00:09:04:336 - info: [debug] [ADB] Device API level: 23
+2017-07-05 00:09:04:337 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:04:387 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:04:387 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+2017-07-05 00:09:05:040 - info: [ADB] Getting device platform version
+2017-07-05 00:09:05:040 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:05:091 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:05:091 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","getprop","ro.build.version.release"]
+2017-07-05 00:09:05:191 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:05:284 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:05:285 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","wm","size"]
+2017-07-05 00:09:05:996 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:06:041 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:06:041 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","getprop","ro.product.model"]
+2017-07-05 00:09:06:124 - info: [debug] [ADB] Current device property 'ro.product.model': Redmi Note 3
+2017-07-05 00:09:06:125 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:06:177 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:06:178 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","getprop","ro.product.manufacturer"]
+2017-07-05 00:09:06:284 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2017-07-05 00:09:06:286 - warn: [AndroidDriver] No app sent in, not parsing package/activity
+2017-07-05 00:09:06:287 - info: [debug] [AndroidDriver] No app capability. Assuming it is already on the device
+2017-07-05 00:09:06:288 - info: [debug] [AndroidDriver] Running fast reset (stop and clear)
+2017-07-05 00:09:06:289 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:06:333 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:06:333 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","am","force-stop","com.curvefish.widgets.brightnesslevel"]
+2017-07-05 00:09:07:068 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:07:121 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:07:121 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","pm","clear","com.curvefish.widgets.brightnesslevel"]
+2017-07-05 00:09:07:657 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2017-07-05 00:09:07:660 - info: [debug] [ADB] Forwarding system: 200 to device: 4724
+2017-07-05 00:09:07:660 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","forward","tcp:200","tcp:4724"]
+2017-07-05 00:09:07:665 - info: [debug] [UiAutomator] Starting UiAutomator
+2017-07-05 00:09:07:666 - info: [debug] [UiAutomator] Moving to state 'starting'
+2017-07-05 00:09:07:667 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2017-07-05 00:09:07:667 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2017-07-05 00:09:07:668 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","push","C:\\Users\\Laptop\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2017-07-05 00:09:08:094 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2017-07-05 00:09:08:096 - info: [debug] [ADB] Getting all processes with uiautomator
+2017-07-05 00:09:08:096 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:08:142 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:08:143 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","ps"]
+2017-07-05 00:09:08:320 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-07-05 00:09:08:321 - info: [debug] [UiAutomator] Starting UIAutomator
+2017-07-05 00:09:08:321 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","539e3ee5","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.curvefish.widgets.brightnesslevel","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2017-07-05 00:09:09:026 - info: [debug] [UiAutomator] Moving to state 'online'
+2017-07-05 00:09:09:030 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2017-07-05 00:09:09:032 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2017-07-05 00:09:09:034 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:09:039 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2017-07-05 00:09:09:081 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:09:082 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","dumpsys","window"]
+2017-07-05 00:09:09:298 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2017-07-05 00:09:09:301 - info: [debug] [ADB] Device API level: 23
+2017-07-05 00:09:09:302 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:09:349 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:09:350 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","am","start","-W","-n","com.curvefish.widgets.brightnesslevel/com.curvefish.widgets.brightnesslevel.BrightnessSelect","-S"]
+2017-07-05 00:09:10:537 - info: [Appium] New AndroidDriver session created successfully, session e28786e3-001c-4f14-b55a-858cb5a443a6 added to master session list
+2017-07-05 00:09:10:539 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1499193550539 (00:09:10 GMT+0530 (India Standard Time))
+2017-07-05 00:09:10:540 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.curvefish.widgets.brightnesslevel","appActivity":"com.curvefish.widgets.brightnesslevel.BrightnessSelect","newCommandTimeout":120,"browserName":"android","udid":"539e3ee5","platformName":"Android","version":"6.0.1MMB29M","deviceName":"539e3ee5","platform":"ANDROID"},"appPackage":"com.curvefish.widgets.brightnesslevel","appActivity":"com.curvefish.widgets.brightnesslevel.BrightnessSelect","newCommandTimeout":120,"browserName":"android","udid":"539e3ee5","platformName":"Android","version":"6.0.1MMB29M","deviceName":"539e3ee5","deviceUDID":"539e3ee5","platformVersion":"6.0.1","deviceScreenSize":"1080x1920","deviceModel":"Redmi Note 3","deviceManufacturer":"Xiaomi"}
+2017-07-05 00:09:10:549 - info: [HTTP] <-- POST /wd/hub/session 200 16706 ms - 968 
+2017-07-05 00:09:11:991 - info: [HTTP] --> GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6 {}
+2017-07-05 00:09:11:993 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:11:995 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.curvefish.widgets.brightnesslevel","appActivity":"com.curvefish.widgets.brightnesslevel.BrightnessSelect","newCommandTimeout":120,"browserName":"android","udid":"539e3ee5","platformName":"Android","version":"6.0.1MMB29M","deviceName":"539e3ee5","platform":"ANDROID"},"appPackage":"com.curvefish.widgets.brightnesslevel","appActivity":"com.curvefish.widgets.brightnesslevel.BrightnessSelect","newCommandTimeout":120,"browserName":"android","udid":"539e3ee5","platformName":"Android","version":"6.0.1MMB29M","deviceName":"539e3ee5","deviceUDID":"539e3ee5","platformVersion":"6.0.1","deviceScreenSize":"1080x1920","deviceModel":"Redmi Note 3","deviceManufacturer":"Xiaomi"}
+2017-07-05 00:09:11:997 - info: [HTTP] <-- GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6 200 5 ms - 968 
+2017-07-05 00:09:12:010 - info: [HTTP] --> GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6 {}
+2017-07-05 00:09:12:011 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:12:012 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.curvefish.widgets.brightnesslevel","appActivity":"com.curvefish.widgets.brightnesslevel.BrightnessSelect","newCommandTimeout":120,"browserName":"android","udid":"539e3ee5","platformName":"Android","version":"6.0.1MMB29M","deviceName":"539e3ee5","platform":"ANDROID"},"appPackage":"com.curvefish.widgets.brightnesslevel","appActivity":"com.curvefish.widgets.brightnesslevel.BrightnessSelect","newCommandTimeout":120,"browserName":"android","udid":"539e3ee5","platformName":"Android","version":"6.0.1MMB29M","deviceName":"539e3ee5","deviceUDID":"539e3ee5","platformVersion":"6.0.1","deviceScreenSize":"1080x1920","deviceModel":"Redmi Note 3","deviceManufacturer":"Xiaomi"}
+2017-07-05 00:09:12:015 - info: [HTTP] <-- GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6 200 2 ms - 968 
+2017-07-05 00:09:12:153 - info: [HTTP] --> POST /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/timeouts {"type":"implicit","ms":60000}
+2017-07-05 00:09:12:154 - info: [debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",60000,"e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:12:156 - info: [debug] [BaseDriver] Set implicit wait to 60000ms
+2017-07-05 00:09:12:157 - info: [debug] [MJSONWP] Responding to client with driver.timeouts() result: null
+2017-07-05 00:09:12:158 - info: [HTTP] <-- POST /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/timeouts 200 5 ms - 76 
+2017-07-05 00:09:12:343 - info: [HTTP] --> POST /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Select brightness level\")"}
+2017-07-05 00:09:12:344 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"Select brightness level\")","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:12:346 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-07-05 00:09:12:348 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-07-05 00:09:12:349 - info: [debug] [BaseDriver] Waiting up to 60000 ms for condition
+2017-07-05 00:09:12:355 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().text(\"Select brightness level\")","context":"","multiple":false}}
+2017-07-05 00:09:12:362 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().text(\"Select brightness level\")","context":"","multiple":false}}
+2017-07-05 00:09:12:363 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:12:363 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-07-05 00:09:12:363 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().text("Select brightness level")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2017-07-05 00:09:12:371 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().text("Select brightness level")
+2017-07-05 00:09:12:373 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Select brightness level"
+2017-07-05 00:09:12:375 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=Select brightness level]
+2017-07-05 00:09:12:398 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2017-07-05 00:09:12:404 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:12:407 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+2017-07-05 00:09:12:408 - info: [HTTP] <-- POST /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element 200 64 ms - 87 
+2017-07-05 00:09:12:879 - info: [HTTP] --> POST /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element {"using":"id","value":"com.curvefish.widgets.brightnesslevel:id/tvCurrentValue"}
+2017-07-05 00:09:12:880 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.curvefish.widgets.brightnesslevel:id/tvCurrentValue","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:12:882 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-07-05 00:09:12:883 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-07-05 00:09:12:883 - info: [debug] [BaseDriver] Waiting up to 60000 ms for condition
+2017-07-05 00:09:12:885 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.curvefish.widgets.brightnesslevel:id/tvCurrentValue","context":"","multiple":false}}
+2017-07-05 00:09:12:890 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.curvefish.widgets.brightnesslevel:id/tvCurrentValue","context":"","multiple":false}}
+2017-07-05 00:09:12:891 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:12:891 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-07-05 00:09:12:892 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.curvefish.widgets.brightnesslevel:id/tvCurrentValue' using 'ID' with the contextId: '' multiple: false
+2017-07-05 00:09:12:900 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.curvefish.widgets.brightnesslevel:id/tvCurrentValue]
+2017-07-05 00:09:12:907 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2017-07-05 00:09:12:908 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:12:911 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"2"}
+2017-07-05 00:09:12:913 - info: [HTTP] <-- POST /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element 200 34 ms - 87 
+2017-07-05 00:09:12:922 - info: [HTTP] --> POST /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element {"using":"id","value":"com.curvefish.widgets.brightnesslevel:id/cbCloseOnSelect"}
+2017-07-05 00:09:12:926 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.curvefish.widgets.brightnesslevel:id/cbCloseOnSelect","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:12:927 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-07-05 00:09:12:929 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-07-05 00:09:12:929 - info: [debug] [BaseDriver] Waiting up to 60000 ms for condition
+2017-07-05 00:09:12:930 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.curvefish.widgets.brightnesslevel:id/cbCloseOnSelect","context":"","multiple":false}}
+2017-07-05 00:09:12:935 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.curvefish.widgets.brightnesslevel:id/cbCloseOnSelect","context":"","multiple":false}}
+2017-07-05 00:09:12:936 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:12:937 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-07-05 00:09:12:938 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.curvefish.widgets.brightnesslevel:id/cbCloseOnSelect' using 'ID' with the contextId: '' multiple: false
+2017-07-05 00:09:12:938 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.curvefish.widgets.brightnesslevel:id/cbCloseOnSelect]
+2017-07-05 00:09:12:948 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2017-07-05 00:09:12:950 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:12:956 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"3"}
+2017-07-05 00:09:12:958 - info: [HTTP] <-- POST /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element 200 35 ms - 87 
+2017-07-05 00:09:12:964 - info: [HTTP] --> POST /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element {"using":"class name","value":"android.widget.SeekBar"}
+2017-07-05 00:09:12:966 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["class name","android.widget.SeekBar","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:12:968 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-07-05 00:09:12:969 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-07-05 00:09:12:969 - info: [debug] [BaseDriver] Waiting up to 60000 ms for condition
+2017-07-05 00:09:12:972 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.SeekBar","context":"","multiple":false}}
+2017-07-05 00:09:12:977 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.SeekBar","context":"","multiple":false}}
+2017-07-05 00:09:12:977 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:12:979 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-07-05 00:09:12:979 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.widget.SeekBar' using 'CLASS_NAME' with the contextId: '' multiple: false
+2017-07-05 00:09:12:980 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.SeekBar, INSTANCE=0]
+2017-07-05 00:09:12:989 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2017-07-05 00:09:12:991 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:12:994 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"4"}
+2017-07-05 00:09:12:996 - info: [HTTP] <-- POST /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element 200 31 ms - 87 
+2017-07-05 00:09:13:320 - info: [HTTP] --> GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/4/location {}
+2017-07-05 00:09:13:324 - info: [debug] [MJSONWP] Calling AppiumDriver.getLocation() with args: ["4","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:13:327 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"4"}}
+2017-07-05 00:09:13:331 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"4"}}
+2017-07-05 00:09:13:334 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:13:338 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+2017-07-05 00:09:13:350 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":84,"y":1175}}
+2017-07-05 00:09:13:351 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:13:353 - info: [debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":84,"y":1175}
+2017-07-05 00:09:13:356 - info: [HTTP] <-- GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/4/location 200 35 ms - 89 
+2017-07-05 00:09:13:366 - info: [HTTP] --> GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/4/location {}
+2017-07-05 00:09:13:367 - info: [debug] [MJSONWP] Calling AppiumDriver.getLocation() with args: ["4","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:13:369 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"4"}}
+2017-07-05 00:09:13:373 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"4"}}
+2017-07-05 00:09:13:374 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:13:375 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+2017-07-05 00:09:13:380 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":84,"y":1175}}
+2017-07-05 00:09:13:382 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:13:383 - info: [debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":84,"y":1175}
+2017-07-05 00:09:13:386 - info: [HTTP] <-- GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/4/location 200 20 ms - 89 
+2017-07-05 00:09:13:393 - info: [HTTP] --> GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/4/size {}
+2017-07-05 00:09:13:394 - info: [debug] [MJSONWP] Calling AppiumDriver.getSize() with args: ["4","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:13:398 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getSize","params":{"elementId":"4"}}
+2017-07-05 00:09:13:403 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"4"}}
+2017-07-05 00:09:13:404 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:13:406 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+2017-07-05 00:09:13:410 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":912,"height":89}}
+2017-07-05 00:09:13:414 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:13:416 - info: [debug] [MJSONWP] Responding to client with driver.getSize() result: {"width":912,"height":89}
+2017-07-05 00:09:13:418 - info: [HTTP] <-- GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/4/size 200 24 ms - 97 
+2017-07-05 00:09:13:476 - info: [HTTP] --> GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/1/text {}
+2017-07-05 00:09:13:478 - info: [debug] [MJSONWP] Calling AppiumDriver.getText() with args: ["1","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:13:480 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"1"}}
+2017-07-05 00:09:13:487 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"1"}}
+2017-07-05 00:09:13:488 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:13:491 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2017-07-05 00:09:13:499 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"Select brightness level"}
+2017-07-05 00:09:13:500 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:13:503 - info: [debug] [MJSONWP] Responding to client with driver.getText() result: "Select brightness level"
+2017-07-05 00:09:13:505 - info: [HTTP] <-- GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/1/text 200 28 ms - 97 
+2017-07-05 00:09:13:516 - info: [HTTP] --> GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/2/text {}
+2017-07-05 00:09:13:519 - info: [debug] [MJSONWP] Calling AppiumDriver.getText() with args: ["2","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:13:522 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"2"}}
+2017-07-05 00:09:13:526 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"2"}}
+2017-07-05 00:09:13:527 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:13:529 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2017-07-05 00:09:13:531 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"2%"}
+2017-07-05 00:09:13:535 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:13:537 - info: [debug] [MJSONWP] Responding to client with driver.getText() result: "2%"
+2017-07-05 00:09:13:539 - info: [HTTP] <-- GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/2/text 200 23 ms - 76 
+2017-07-05 00:09:13:546 - info: [HTTP] --> GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/3/text {}
+2017-07-05 00:09:13:548 - info: [debug] [MJSONWP] Calling AppiumDriver.getText() with args: ["3","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:13:550 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"3"}}
+2017-07-05 00:09:13:555 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"3"}}
+2017-07-05 00:09:13:556 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:13:557 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2017-07-05 00:09:13:564 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"Close on select"}
+2017-07-05 00:09:13:566 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:13:568 - info: [debug] [MJSONWP] Responding to client with driver.getText() result: "Close on select"
+2017-07-05 00:09:13:572 - info: [HTTP] <-- GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/3/text 200 24 ms - 89 
+2017-07-05 00:09:13:679 - info: [HTTP] --> POST /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/touch/perform {"actions":[{"action":"longPress","options":{"x":84,"y":1175}},{"action":"moveTo","options":{"x":996,"y":1175}},{"action":"release","options":{}}]}
+2017-07-05 00:09:13:685 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"longPress","options":{"x":84,"y":1175}},{"action":"moveTo","options":{"x":996,"y":1175}},{"action":"release","options":{}}],"e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:13:692 - info: [debug] [ADB] Device API level: 23
+2017-07-05 00:09:13:695 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"drag","params":{"startX":84,"startY":1175,"endX":996,"endY":1175,"steps":80}}
+2017-07-05 00:09:13:700 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"drag","params":{"startX":84,"startY":1175,"endX":996,"endY":1175,"steps":80}}
+2017-07-05 00:09:13:701 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:13:702 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: drag
+2017-07-05 00:09:13:720 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1920]
+2017-07-05 00:09:13:722 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1920]
+2017-07-05 00:09:13:725 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Dragging from [x=84.0, y=1175.0] to [x=996.0, y=1175.0] with steps: 80
+2017-07-05 00:09:16:373 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-07-05 00:09:16:376 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:16:379 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
+2017-07-05 00:09:16:382 - info: [HTTP] <-- POST /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/touch/perform 200 2702 ms - 76 
+2017-07-05 00:09:16:391 - info: [HTTP] --> GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/2/text {}
+2017-07-05 00:09:16:392 - info: [debug] [MJSONWP] Calling AppiumDriver.getText() with args: ["2","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:16:394 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"2"}}
+2017-07-05 00:09:16:399 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"2"}}
+2017-07-05 00:09:16:400 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:16:401 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2017-07-05 00:09:16:940 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"100%"}
+2017-07-05 00:09:16:941 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:16:942 - info: [debug] [MJSONWP] Responding to client with driver.getText() result: "100%"
+2017-07-05 00:09:16:944 - info: [HTTP] <-- GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/2/text 200 553 ms - 78 
+2017-07-05 00:09:16:954 - info: [HTTP] --> GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/1/text {}
+2017-07-05 00:09:16:955 - info: [debug] [MJSONWP] Calling AppiumDriver.getText() with args: ["1","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:16:956 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"1"}}
+2017-07-05 00:09:16:959 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"1"}}
+2017-07-05 00:09:16:960 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:16:960 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2017-07-05 00:09:17:013 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"Select brightness level"}
+2017-07-05 00:09:17:016 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:17:022 - info: [debug] [MJSONWP] Responding to client with driver.getText() result: "Select brightness level"
+2017-07-05 00:09:17:024 - info: [HTTP] <-- GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/1/text 200 68 ms - 97 
+2017-07-05 00:09:17:030 - info: [HTTP] --> GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/2/text {}
+2017-07-05 00:09:17:030 - info: [debug] [MJSONWP] Calling AppiumDriver.getText() with args: ["2","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:17:032 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"2"}}
+2017-07-05 00:09:17:037 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"2"}}
+2017-07-05 00:09:17:039 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:17:040 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2017-07-05 00:09:17:045 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"100%"}
+2017-07-05 00:09:17:053 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:17:058 - info: [debug] [MJSONWP] Responding to client with driver.getText() result: "100%"
+2017-07-05 00:09:17:060 - info: [HTTP] <-- GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/2/text 200 30 ms - 78 
+2017-07-05 00:09:17:068 - info: [HTTP] --> GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/3/text {}
+2017-07-05 00:09:17:069 - info: [debug] [MJSONWP] Calling AppiumDriver.getText() with args: ["3","e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:17:070 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"3"}}
+2017-07-05 00:09:17:076 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"3"}}
+2017-07-05 00:09:17:082 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-07-05 00:09:17:082 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2017-07-05 00:09:17:088 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"Close on select"}
+2017-07-05 00:09:17:089 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:17:091 - info: [debug] [MJSONWP] Responding to client with driver.getText() result: "Close on select"
+2017-07-05 00:09:17:093 - info: [HTTP] <-- GET /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6/element/3/text 200 25 ms - 89 
+2017-07-05 00:09:17:106 - info: [HTTP] --> DELETE /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6 {}
+2017-07-05 00:09:17:107 - info: [debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["e28786e3-001c-4f14-b55a-858cb5a443a6"]
+2017-07-05 00:09:17:108 - info: [debug] [BaseDriver] Event 'quitSessionRequested' logged at 1499193557108 (00:09:17 GMT+0530 (India Standard Time))
+2017-07-05 00:09:17:110 - info: [debug] [AndroidDriver] Shutting down Android driver
+2017-07-05 00:09:17:115 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:17:217 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:17:218 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","am","force-stop","com.curvefish.widgets.brightnesslevel"]
+2017-07-05 00:09:18:007 - info: [debug] [ADB] Pressing the HOME button
+2017-07-05 00:09:18:009 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:18:103 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:18:104 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","input","keyevent",3]
+2017-07-05 00:09:18:873 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2017-07-05 00:09:18:878 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2017-07-05 00:09:18:879 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2017-07-05 00:09:18:879 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2017-07-05 00:09:18:880 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-07-05 00:09:18:881 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2017-07-05 00:09:18:882 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2017-07-05 00:09:18:885 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2017-07-05 00:09:18:885 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2017-07-05 00:09:18:886 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2017-07-05 00:09:18:886 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2017-07-05 00:09:18:887 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2017-07-05 00:09:18:887 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2017-07-05 00:09:18:888 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2017-07-05 00:09:18:888 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2017-07-05 00:09:18:889 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+2017-07-05 00:09:18:889 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+2017-07-05 00:09:18:889 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 9.897
+2017-07-05 00:09:18:890 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+2017-07-05 00:09:18:890 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2017-07-05 00:09:18:896 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2017-07-05 00:09:18:896 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2017-07-05 00:09:18:897 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2017-07-05 00:09:18:898 - info: [debug] [ADB] Getting all processes with uiautomator
+2017-07-05 00:09:18:905 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:19:001 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:19:002 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","ps"]
+2017-07-05 00:09:19:348 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-07-05 00:09:19:348 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2017-07-05 00:09:19:350 - info: [debug] [Logcat] Stopping logcat capture
+2017-07-05 00:09:19:362 - info: [debug] [ADB] Getting connected devices...
+2017-07-05 00:09:19:456 - info: [debug] [ADB] 2 device(s) connected
+2017-07-05 00:09:19:457 - info: [debug] [ADB] Running 'C:\Users\Laptop\AppData\Local\Android\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","539e3ee5","shell","am","force-stop","io.appium.unlock"]
+2017-07-05 00:09:20:200 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2017-07-05 00:09:20:200 - info: [Appium] Removing session e28786e3-001c-4f14-b55a-858cb5a443a6 from our master session list
+2017-07-05 00:09:20:201 - info: [debug] [BaseDriver] Event 'quitSessionFinished' logged at 1499193560201 (00:09:20 GMT+0530 (India Standard Time))
+2017-07-05 00:09:20:201 - info: [debug] [MJSONWP] Received response: null
+2017-07-05 00:09:20:202 - info: [debug] [MJSONWP] But deleting session, so not returning
+2017-07-05 00:09:20:202 - info: [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
+2017-07-05 00:09:20:204 - info: [HTTP] <-- DELETE /wd/hub/session/e28786e3-001c-4f14-b55a-858cb5a443a6 200 3097 ms - 76 

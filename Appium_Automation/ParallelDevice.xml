@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossPlatformSuite" parallel="tests">
+<test name="RealDevice Test">
+    <parameter name="device" value="539e3ee5"></parameter>	
+  	<parameter name="apppackage" value="com.curvefish.widgets.brightnesslevel"></parameter>	
+  	<parameter name="activity" value="com.curvefish.widgets.brightnesslevel.BrightnessSelect"></parameter>	
+  	<parameter name="version" value="6.0.1MMB29M"></parameter>	
+  	<parameter name="appiumServer" value="http://127.0.0.1:4723/wd/hub"></parameter>
+    <classes>
+      <class name="appiumTest.BrightnessControl"/>
+    </classes>
+</test>
+<test name="Emulator Test">
+    <parameter name="device" value="emulator-5554"></parameter>	 
+  	<parameter name="apppackage" value="com.android.browser"></parameter>	
+  	<parameter name="activity" value="com.android.browser.BrowserActivity"></parameter>	
+  	<parameter name="version" value="6.0"></parameter>	
+  	<parameter name="appiumServer" value="http://127.0.0.1:4733/wd/hub"></parameter>
+    <classes>
+      <class name="appiumTest.Appium_03_Facebook_FUIP"/>
+    </classes>
+</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,10 @@
+2017-07-04 19:14:44:090 - info: [Appium] Welcome to Appium v1.6.5
+2017-07-04 19:14:44:090 - info: [Appium] Non-default server args:
+2017-07-04 19:14:44:091 - info: [Appium]   address: 172.0.0.1
+2017-07-04 19:14:44:091 - info: [Appium]   port: 4734
+2017-07-04 19:14:44:091 - info: [Appium]   bootstrapPort: 200
+2017-07-04 19:14:44:091 - info: [Appium]   sessionOverride: true
+2017-07-04 19:14:44:092 - info: [Appium]   log: E:\Eclipse_selenium\Appium_Automation\Appium Server Log\AppiumServer4734.log
+2017-07-04 19:14:44:092 - info: [Appium]   logTimestamp: true
+2017-07-04 19:14:44:092 - info: [Appium]   localTimezone: true
+2017-07-04 19:14:44:206 - error: [HTTP] Could not start REST http interface listener. Requested address is not available.

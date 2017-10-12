@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<!-- <test name="FireFoxTest">
+    <parameter name="portNO" value="4545"></parameter>
+  	<parameter name="appURL" value="https://www.facebook.com"></parameter>
+    <classes>
+    <class name="appiumTest.Selenium_Grid_parallel"/>
+    </classes>
+</test> -->
+<test name="ChromeTest">
+    <parameter name="portNO" value="4546"></parameter>
+  	<parameter name="appURL" value="https://www.facebook.com"></parameter>
+    <classes>
+    <class name="appiumTest.Selenium_Grid_parallel"/>
+    </classes>
+</test>
+<test name="InternetExplorerTest">
+    <parameter name="portNO" value="4547"></parameter>
+  	<parameter name="appURL" value="https://en-gb.facebook.com"></parameter>
+    <classes>
+    <class name="appiumTest.Selenium_Grid_parallel"/>
+    </classes>
+</test>
+</suite>
